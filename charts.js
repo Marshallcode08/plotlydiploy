@@ -129,7 +129,7 @@ function buildCharts(sample) {
       {
         domain: {x:[0, 1], y:[0,1]},
         value: frequency,
-        title: "Scrub per Week",
+        title: {text: "Scrub per Week"},
         type: "indicator",
         mode: "guage+number",
         gauge: {
